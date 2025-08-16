@@ -1,0 +1,166 @@
+.main {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/aikido-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.heroContent {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heroContent h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.about {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+  color: #333;
+}
+
+.about h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.about p {
+  margin-bottom: 3rem;
+  line-height: 1.6;
+}
+
+.schedule {
+  color: #333;
+  margin: 2rem 0;
+}
+
+.schedule h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.schedule h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.schedule ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.schedule li {
+  margin-bottom: 0.5rem;
+}
+
+.schedule p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.schedule .feeNote {
+  margin: 1rem 0;
+}
+
+.schedule .feeNote a {
+  color: #c41230;
+  text-decoration: none;
+}
+
+.schedule .feeNote a:hover {
+  text-decoration: underline;
+}
+
+.contactInfo {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.contactButton {
+  background: #c41230;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.contactButton:hover {
+  background: #a30f28;
+}
+
+.socialMedia {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eee;
+}
+
+.socialMedia h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.socialIcon {
+  transition: transform 0.2s ease;
+}
+
+.socialIcon:hover {
+  transform: translateY(-3px);
+}
+
+.videoSection {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.videoSection h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.videoContainer {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  background: #000;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.videoContainer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+} 
